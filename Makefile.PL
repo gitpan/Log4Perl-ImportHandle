@@ -11,14 +11,14 @@ WriteMakefile1(
                     },
           },
           BUILD_REQUIRES => {
-                              'Test::More' => 1,
+                              'Test::More' => 0,
           },
           'NAME' => 'Log4Perl::ImportHandle',
           'VERSION_FROM' => 'lib/Log4Perl/ImportHandle.pm',
           'PREREQ_PM' => {
-                           'Log::Log4perl' => 1,
-                           'Exporter::AutoClean' => 1,
-                           'strict' => 1,
+                           'Log::Log4perl' => 0,
+                           'Exporter::AutoClean' => 0,
+                           'strict' => 0,
                          },
           'INSTALLDIRS' => 'site',
           'EXE_FILES' => [],

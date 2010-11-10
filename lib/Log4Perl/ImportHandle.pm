@@ -11,8 +11,8 @@ package Log4Perl::ImportHandle; # Imports a Log4Perl handle with category
 #  # Imports function LOG() to access category 'area1'
 #  use Log4Perl::ImportHandle LOG => 'area1'
 #
-#  # Imports also  function LOG2() to access category 'area2'
-#  Log4Perl::ImportHandle LOG => 'area1',LOG2 => 'area2)
+#  # Imports also function LOG2() to access category 'area2'
+#  Log4Perl::ImportHandle LOG => 'area1',LOG2 => 'area2
 #
 #  # Imports function logger() to access category '' (default)
 #  use Log4Perl::ImportHandle logger
@@ -65,7 +65,7 @@ package Log4Perl::ImportHandle; # Imports a Log4Perl handle with category
 
 
 
-our $VERSION='0.01';
+our $VERSION='0.02';
 
 use strict;
 use Log::Log4perl;
@@ -133,8 +133,8 @@ Log4Perl::ImportHandle - Imports a Log4Perl handle with category
  # Imports function LOG() to access category 'area1'
  use Log4Perl::ImportHandle LOG => 'area1'
 
- # Imports also  function LOG2() to access category 'area2'
- Log4Perl::ImportHandle LOG => 'area1',LOG2 => 'area2)
+ # Imports also function LOG2() to access category 'area2'
+ Log4Perl::ImportHandle LOG => 'area1',LOG2 => 'area2
 
  # Imports function logger() to access category '' (default)
  use Log4Perl::ImportHandle logger
