@@ -2,8 +2,7 @@ package Local::Foo;
 
 use Log4Perl::ImportHandle LOG => 'area1', LOG2 => 'area2';
 
-use Moose;
-
+sub new {};
 
 
 sub test {

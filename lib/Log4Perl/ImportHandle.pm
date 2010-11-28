@@ -65,7 +65,7 @@ package Log4Perl::ImportHandle; # Imports a Log4Perl handle with category
 
 
 
-our $VERSION='0.02';
+our $VERSION='0.03';
 
 use strict;
 use Log::Log4perl;

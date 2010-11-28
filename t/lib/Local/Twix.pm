@@ -2,8 +2,7 @@ package Local::Twix;
 
 use Log4Perl::ImportHandle;
 
-use Moose;
-
+sub new {};
 
 
 sub test {
