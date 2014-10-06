@@ -1,5 +1,5 @@
 package Log4Perl::ImportHandle; # Imports a Log4Perl handle with category
-
+$Log4Perl::ImportHandle::VERSION = '0.031';
 
 # This class imports an easy to use Log4Perl handle to the current class. Instead of
 # the not recommended way to use direct functions like DEBUG(), here you can define
@@ -65,7 +65,6 @@ package Log4Perl::ImportHandle; # Imports a Log4Perl handle with category
 
 
 
-our $VERSION='0.03';
 
 use strict;
 use Log::Log4perl;

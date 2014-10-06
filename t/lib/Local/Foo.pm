@@ -2,7 +2,9 @@ package Local::Foo;
 
 use Log4Perl::ImportHandle LOG => 'area1', LOG2 => 'area2';
 
-sub new {};
+sub new {
+  return bless {}, shift;  
+};
 
 
 sub test {

@@ -2,7 +2,11 @@ package Local::Twix;
 
 use Log4Perl::ImportHandle;
 
-sub new {};
+
+sub new {
+  return bless {}, shift;  
+};
+
 
 
 sub test {

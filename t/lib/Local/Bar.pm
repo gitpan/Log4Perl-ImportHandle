@@ -2,7 +2,11 @@ package Local::Bar;
 
 use Log4Perl::ImportHandle 'logging';
 
-sub new {};
+
+sub new {
+  return bless {}, shift;  
+};
+
 
 
 sub test {
